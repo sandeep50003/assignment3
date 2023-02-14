@@ -1,0 +1,59 @@
+body{
+    padding: 0PX;
+    margin: 0px;
+    font-size: 18px;
+    background: oldlace;
+}
+#my‐image {
+    box-shadow: 3px 4px 6px #000000d1;
+}
+.site‐title {
+    color: rgb(255, 115, 0);
+}
+header, footer {
+    background: black;
+    color: white;
+}
+header nav ul {
+    margin: 14px 0px;
+    list-style: none;
+    display: inline-flex;
+}
+nav ul li {
+    padding: 0px 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 31px;
+    border: 1px solid #ff7300;
+    margin: 0px 10px;
+}
+nav ul li.active {
+    background: #ff7300;
+}
+nav ul li:hover {
+    background: #ff7300;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    width: 90%;
+    margin: 50px auto;
+}
+footer p {
+    margin: 0px;
+    padding: 20px;
+}
+main ul{
+        list-style: square;
+}
+main ul li:nth-child(odd) {
+    background: red;
+}
+main ul li:nth-child(odd) {
+    background: #ff7300;
+}
+main ul li {
+    padding: 10px;
+}
